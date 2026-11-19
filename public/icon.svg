@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="112" fill="#0B1220"/>
+  <rect x="24" y="24" width="464" height="464" rx="92" stroke="#1E293B" stroke-width="4"/>
+  <!-- Calibration Grid Arc -->
+  <circle cx="256" cy="256" r="168" stroke="#0EA5E9" stroke-opacity="0.2" stroke-width="2" stroke-dasharray="6 10"/>
+  <!-- Precision Syringe Barrel (Diagonal 45deg) -->
+  <g transform="translate(256 256) rotate(-45) translate(-256 -256)">
+    <!-- Plunger Rod & Thumb Flange -->
+    <rect x="244" y="344" width="24" height="82" rx="4" fill="#94A3B8"/>
+    <rect x="216" y="420" width="80" height="16" rx="8" fill="#E2E8F0"/>
+    <!-- Finger Flanges -->
+    <rect x="196" y="332" width="120" height="14" rx="7" fill="#CBD5E1"/>
+    <!-- Syringe Barrel -->
+    <rect x="220" y="136" width="72" height="200" rx="10" fill="#0F172A" stroke="#38BDF8" stroke-width="8"/>
+    <!-- Liquid Volume Inside Barrel -->
+    <rect x="228" y="186" width="56" height="106" rx="4" fill="#0EA5E9" fill-opacity="0.88"/>
+    <!-- Rubber Plunger Stopper -->
+    <rect x="226" y="292" width="60" height="22" rx="4" fill="#F8FAFC"/>
+    <rect x="226" y="292" width="60" height="6" rx="2" fill="#38BDF8"/>
+    <!-- Scale Ticks -->
+    <line x1="224" y1="168" x2="252" y2="168" stroke="#E0F2FE" stroke-width="5" stroke-linecap="round"/>
+    <line x1="224" y1="196" x2="242" y2="196" stroke="#E0F2FE" stroke-width="4" stroke-linecap="round"/>
+    <line x1="224" y1="224" x2="252" y2="224" stroke="#E0F2FE" stroke-width="5" stroke-linecap="round"/>
+    <line x1="224" y1="252" x2="242" y2="252" stroke="#E0F2FE" stroke-width="4" stroke-linecap="round"/>
+    <line x1="224" y1="280" x2="252" y2="280" stroke="#E0F2FE" stroke-width="5" stroke-linecap="round"/>
+    <!-- Needle Hub & Cannula -->
+    <path d="M240 136 L246 108 L266 108 L272 136 Z" fill="#38BDF8"/>
+    <line x1="256" y1="108" x2="256" y2="54" stroke="#E2E8F0" stroke-width="6" stroke-linecap="round"/>
+    <!-- Precision Drop -->
+    <circle cx="256" cy="40" r="6" fill="#38BDF8"/>
+  </g>
+</svg>

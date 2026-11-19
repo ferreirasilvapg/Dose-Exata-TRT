@@ -1,0 +1,6 @@
+{
+  "name": "DoseExata TRT",
+  "description": "Calculadora clínica de precisão para seringas de TRT, conversão mL/UI, peptídeos e simulação farmacocinética.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
